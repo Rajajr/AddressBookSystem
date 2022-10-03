@@ -1,0 +1,8 @@
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\bin\Debug\AddressBooks.exe.config
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\bin\Debug\AddressBooks.exe
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\bin\Debug\AddressBooks.pdb
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\obj\Debug\AddressBooks.csproj.AssemblyReference.cache
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\obj\Debug\AddressBooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\obj\Debug\AddressBooks.csproj.CoreCompileInputs.cache
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\obj\Debug\AddressBooks.exe
+C:\Users\RAMYA\source\repos\AddressBooks\AddressBooks\obj\Debug\AddressBooks.pdb
