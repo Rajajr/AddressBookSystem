@@ -12,7 +12,7 @@ namespace AddressBooks
     {
         static void Main(string[] args)
         {
-            //UC-3 Ability to Edit Existing Contact Person Using Their Name
+            //UC-4 Ability To Delete a Person Using Person's Name
             Console.WriteLine("Address Book");
 
             int option = 0;
@@ -22,8 +22,8 @@ namespace AddressBooks
                 Console.WriteLine("2:Exit From Address Book");
                 option=Convert.ToInt32(Console.ReadLine());
                 if(option!=2)
-                    AddressBook.AddPerson1deatils();
-                    AddressBook.Numberofpeople();
+                    AddressBooks.AddPerson1deatils();
+                    AddressBooks.Numberofpeople();
             }
             
             Console.WriteLine("You Are Out Of the AddressBook");

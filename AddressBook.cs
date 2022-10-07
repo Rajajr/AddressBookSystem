@@ -17,7 +17,7 @@ namespace AddressBooks
             Contacts contacts = new Contacts();
             int option1 = 0;
             Console.WriteLine("Enter the Number");
-            Console.WriteLine("1:Add person\n2:Edit person");
+            Console.WriteLine("1:Add person\n2:Edit person\n3:Delete the person");
             option1 = Convert.ToInt32(Console.ReadLine());
 
             switch (option1)
@@ -105,7 +105,23 @@ namespace AddressBooks
                             Console.WriteLine("Nothing to Edit");
                         }
                     }
-                    break;           
+                    break;
+
+                case 3:
+                    string Names;
+                    Console.WriteLine("Enter the Name To Delete: ");
+                    Names = Console.ReadLine();
+                    for(int i=0;i<details.Count;i++)
+                    {
+                        Contacts contact=details[i];
+                        if (contact.First_Name==Names)
+                        {
+                            details.RemoveAt(i);
+                            Console.WriteLine("The Name: " +contact.First_Name+  "is Deleted");
+                        }
+                    }
+
+                    break;
             }
      
         }
